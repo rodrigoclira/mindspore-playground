@@ -26,3 +26,16 @@ sudo docker run -it swr.cn-south-1.myhuaweicloud.com/mindspore/mindspore-cpu:1.9
 ```bash
 python -c "import mindspore;mindspore.run_check()"
 ```
+
+
+## 4. Iniciando o container com docker-compose
+```bash
+sudo docker-compose up
+```
+
+## 5. Finalizando o container com docker-compose
+```bash
+sudo docker-compose down
+```
+
+Os arquivos copy_into.sh e copy_execute.sh são scripts que permitem copiar arquivos para dentro do container e também executar.
