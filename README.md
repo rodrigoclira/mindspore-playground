@@ -57,4 +57,4 @@ conda activate py39
 ```bash
 pip install https://ms-release.obs.cn-north-4.myhuaweicloud.com/1.9.0/MindSpore/cpu/x86_64/mindspore-1.9.0-cp39-cp39-linux_x86_64.whl
 ```
-
+Link do pacote para o mindspore 1.9.0 da plataforma Linux x86_64. Outros pacotes podem ser obtidos em: https://www.mindspore.cn/versions/en
