@@ -1,7 +1,8 @@
 # mindspore-playground
 
 
-# Instalação
+
+# Usando Docker
 
 A forma mais simples de usar o minspore é através do container docker seguindo o passo a passo descrito abaixo: 
 
@@ -39,3 +40,21 @@ sudo docker-compose down
 ```
 
 Os arquivos copy_into.sh e copy_execute.sh são scripts que permitem copiar arquivos para dentro do container e também executar.
+
+# Usando Pip
+
+## Criar ambiente com o Anaconta
+```bash
+conda create -n py39 python=3.9 anaconda
+```
+
+## Inicializar o ambiente
+```bash
+conda activate py39
+```
+
+## Instalar a versão do Mindspore desejada
+```bash
+pip install https://ms-release.obs.cn-north-4.myhuaweicloud.com/1.9.0/MindSpore/cpu/x86_64/mindspore-1.9.0-cp39-cp39-linux_x86_64.whl
+```
+
